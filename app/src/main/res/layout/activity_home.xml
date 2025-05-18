@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textViewWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Attendance Tracker"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/buttonFaceCheckIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Face Check-In"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnAttendanceHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance History"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnEngagementScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Engagement Score"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnAlertsReminders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alerts &amp; Reminders"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
